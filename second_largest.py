@@ -3,7 +3,6 @@
 
 my_set = {}
 
-
 if(len(my_set)==0):
     print("set is empty")
 
@@ -18,7 +17,3 @@ else:
     #print(my_set)
     second_max = max(my_set)
     print("second max value :", second_max)
-
-
-
-    
