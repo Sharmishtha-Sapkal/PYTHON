@@ -22,3 +22,16 @@ def swap_last_two_digits(num):
     first_two_digits = num // 100
     swapped_num = (first_two_digits * 100) + (last_two_digits % 10)
     return swapped_num
+
+# Function to calculate factorial
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Input from the user
+num = int(input("Enter a number: "))
+
+# Function call and output
+print(f"Factorial of {num} is {factorial(num)}")
