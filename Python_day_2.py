@@ -35,3 +35,13 @@ num = int(input("Enter a number: "))
 
 # Function call and output
 print(f"Factorial of {num} is {factorial(num)}")
+
+
+#reverse 
+text = input("Enter a string: ")
+
+# Reverse the string using reversed() function
+reversed_text = "".join(reversed(text))
+
+# Output the result
+print("Reversed string:", reversed_text)
