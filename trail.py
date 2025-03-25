@@ -1,4 +1,4 @@
-case = int(input("Enter Your Choice"))
+xcase = int(input("Enter Your Choice"))
 def python_switch(case):
     
     match case:
