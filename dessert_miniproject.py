@@ -3,7 +3,7 @@ from abc import abstractmethod
 
 from abc import ABC  
 
-class dessert_item(ABC):
+class dessert_item():
 
     def __init__(self, name):
         self.name = name
@@ -14,4 +14,6 @@ class dessert_item(ABC):
     @abstractmethod
     def get_cost(self):
         pass
+
+
 
